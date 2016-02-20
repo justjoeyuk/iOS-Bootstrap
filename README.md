@@ -41,7 +41,7 @@ I typically stick anything that is a component (used in multiple places) in the
 source folder.
 
 I have found this to be a nice structure and keeps things well separated. You will
-notice that I use a *ViewModels* folder. I highly advise you to use the MVVM
+notice that I use a **ViewModels** folder. I highly advise you to use the MVVM
 architecture in your applications to keep them maintainable. If you want to go
 maximum code ninja, take a look at [https://github.com/ReactiveX/RxSwift](reactive programming)!
 
@@ -58,8 +58,8 @@ I chose Carthage over CocoaPods as per preference. I like carthage because it
 doesn't change your project settings and I appreciate that it doesn't have a
 centralized server. You can use CocoaPods with this project though. Just:
 
-- Remove *Cartfile*
+- Remove **Cartfile**
 - Remove the Run Script at the end of the build phase (/usr/local/bin/carthage copy-frameworks)
-- Remove *$(PROJECT_DIR)/Carthage/Build/iOS* from the Framework Search Paths
+- Remove **$(PROJECT_DIR)/Carthage/Build/iOS** from the Framework Search Paths
 
 That's it, you're good to go!
