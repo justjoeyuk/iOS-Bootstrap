@@ -16,7 +16,8 @@
 This is a bare-bones iOS project that uses Carthage as the Dependency Manager.
 
 Clone the project.
-Ensure you have HomeBrew installed [http://brew.sh](Here)
+Ensure you have HomeBrew installed [Here](http://brew.sh).
+
 Run ```brew update && brew install carthage```
 
 
