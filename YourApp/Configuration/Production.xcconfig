@@ -1,9 +1,5 @@
 //
 //  Production.xcconfig
-//  BZ-iOS
-//
-//  Created by Joey Clover on 03/02/2016.
-//  Copyright © 2016 BandZest. All rights reserved.
 //
 
 OTHER_CFLAGS = -DPRODUCTION=1
