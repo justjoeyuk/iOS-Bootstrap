@@ -23,6 +23,7 @@ Select the "YourApp" folder in the navigation tree and rename it.
 
 Whilst the folder is selected, look at the properties on the right and click the
 folder icon. Navigate to the folder that you have renamed and select it.
+
 ![Change directory](http://i.imgur.com/gqxRlm2.png)
 
 **DONE!**
