@@ -1,32 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Installation](#installation)
+- [The Purpose](#the-purpose)
+  - [What's with the "setupConstraints" in an extension?](#whats-with-the-setupconstraints-in-an-extension)
+- [Why Carthage](#why-carthage)
+- [Renaming the Project](#renaming-the-project)
+  - [Step One](#step-one)
+  - [Step Two](#step-two)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Installation
 This is a bare-bones iOS project that uses Carthage as the Dependency Manager.
 
 Clone the project.
 Ensure you have HomeBrew installed [http://brew.sh](Here)
 Run ```brew update && brew install carthage```
-
-## Renaming the Project
-
-### Step One
-Select your project in the navigation tree and change the "Name" and "Organization"
-to whatever suits your needs.
-
-![Project Settings](http://i.imgur.com/LrF2hyU.png)
-
-### Step Two
-Navigate to your project directory and change the name of the YourApp folder in
-your file system.
-![Filesystem](http://i.imgur.com/HUQ3LNI.png)
-
-Select the "YourApp" folder in the navigation tree and rename it.
-![Folder Name](http://i.imgur.com/wTuLTwZ.png)
-
-Whilst the folder is selected, look at the properties on the right and click the
-folder icon. Navigate to the folder that you have renamed and select it.
-
-![Change directory](http://i.imgur.com/gqxRlm2.png)
-
-**DONE!**
 
 
 ## The Purpose
@@ -86,3 +77,27 @@ centralized server. You can use CocoaPods with this project though. Just:
 - Remove **$(PROJECT_DIR)/Carthage/Build/iOS** from the Framework Search Paths
 
 That's it, you're good to go!
+
+
+## Renaming the Project
+
+### Step One
+Select your project in the navigation tree and change the "Name" and "Organization"
+to whatever suits your needs.
+
+![Project Settings](http://i.imgur.com/LrF2hyU.png)
+
+### Step Two
+Navigate to your project directory and change the name of the YourApp folder in
+your file system.
+![Filesystem](http://i.imgur.com/HUQ3LNI.png)
+
+Select the "YourApp" folder in the navigation tree and rename it.
+![Folder Name](http://i.imgur.com/wTuLTwZ.png)
+
+Whilst the folder is selected, look at the properties on the right and click the
+folder icon. Navigate to the folder that you have renamed and select it.
+
+![Change directory](http://i.imgur.com/gqxRlm2.png)
+
+**DONE!**
