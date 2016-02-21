@@ -5,6 +5,28 @@ Clone the project.
 Ensure you have HomeBrew installed [http://brew.sh](Here)
 Run ```brew update && brew install carthage```
 
+## Renaming the Project
+
+### Step One
+Select your project in the navigation tree and change the "Name" and "Organization"
+to whatever suits your needs.
+
+![Project Settings](http://i.imgur.com/LrF2hyU.png)
+
+### Step Two
+Navigate to your project directory and change the name of the YourApp folder in
+your file system.
+![Filesystem](http://i.imgur.com/HUQ3LNI.png)
+
+Select the "YourApp" folder in the navigation tree and rename it.
+![Folder Name](http://i.imgur.com/wTuLTwZ.png)
+
+Whilst the folder is selected, look at the properties on the right and click the
+folder icon. Navigate to the folder that you have renamed and select it.
+![Change directory](http://i.imgur.com/gqxRlm2.png)
+
+**DONE!**
+
 
 ## The Purpose
 Whenever I create a project in XCode, I usually delete almost all the files and

@@ -285,6 +285,7 @@
 /* Begin XCBuildConfiguration section */
 		EF73FDC71C62A2540075D168 /* Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570CB1C791CDC00B1D105 /* Local.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -330,6 +331,7 @@
 		};
 		EF73FDC81C62A2540075D168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570D31C791CDC00B1D105 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -368,6 +370,7 @@
 		};
 		EF73FDCA1C62A2540075D168 /* Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570CB1C791CDC00B1D105 /* Local.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
@@ -389,6 +392,7 @@
 		};
 		EF73FDCB1C62A2540075D168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570D31C791CDC00B1D105 /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
@@ -410,6 +414,7 @@
 		};
 		EFBB59721C62B137004DB1C7 /* Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570D41C791CDC00B1D105 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -455,6 +460,7 @@
 		};
 		EFBB59731C62B137004DB1C7 /* Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570D41C791CDC00B1D105 /* Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
@@ -476,6 +482,7 @@
 		};
 		EFBB59761C62B146004DB1C7 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570D21C791CDC00B1D105 /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -514,6 +521,7 @@
 		};
 		EFBB59771C62B146004DB1C7 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0570D21C791CDC00B1D105 /* Production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
